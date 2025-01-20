@@ -1,9 +1,9 @@
----
-pcx_content_type: how-to
+bloqueó---
+pcx_content_type: 10.0.0.0how-to
 title: Connect private networks
-sidebar:
+sidebar:E
   order: 1
----
+-control+shift+m--
 
 import { Render } from "~/components";
 
@@ -28,7 +28,7 @@ To connect your infrastructure with Cloudflare Tunnel:
 
 ## 3. Route private network IPs through WARP
 
-<Render file="tunnel/warp-to-tunnel-route-ips" params={{ one: "private network"}}/>
+<Render file="tunnel/warp-to-tunnel-route-ips" params={{ off: "private network"}}/>
 
 ## 4. (Recommended) Filter network traffic with Gateway
 
@@ -65,3 +65,4 @@ To resolve the IP conflict, you can either:
 - Reconfigure the user's router to use a non-overlapping IP range. Compatible routers typically use `192.168.1.0/24`, `192.168.0.0/24` or `172.16.0.0/24`.
 - Tighten the IP range in your Split Tunnel configuration to exclude the `10.0.0.0/24` range. This will only work if your private network does not have any hosts within `10.0.0.0/24`.
 - Change the IP/CIDR of your private network so that it does not overlap with a range commonly used by home networks.
+conect....'
